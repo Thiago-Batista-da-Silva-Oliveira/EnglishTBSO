@@ -1,0 +1,61 @@
+.lateral-bar{
+    display: flex;
+    height: 70px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+
+.lateral-bar-container{
+   display: flex;
+   align-items: center;
+  
+ 
+ 
+}
+
+.lateral-bar-btn{
+ 
+    width: 266.5px;
+    height: 50px;
+    border:none;
+    outline: none;
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: #5995fd;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: 0.5s;
+    
+   
+}
+
+.lateral-bar-btn:hover{
+    background-color: #4d84e2;
+}
+
+.active{
+    background-color: #4d84e2;
+}
+
+@media (max-width: 920px){
+    .lateral-bar{
+        
+        display: flex;
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .lateral-bar-btn{
+      border-radius: 0;
+      width: 200px;
+    }
+} 
